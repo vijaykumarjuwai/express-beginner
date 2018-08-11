@@ -1,0 +1,5 @@
+Request parameters essential info ex: id here => api/course/id
+Query string parameters optional info ex: sortby here => api/course/id?sortBy=name
+
+app.use(express.json()) // This is for enabling json parsing in the request body.
+// Use the express.json middleware in the request processing pipeline.
